@@ -1,21 +1,12 @@
 import React from "react";
 import GradualSpacing from "./ui/gradual-spacing";
 import TypingAnimation from "./ui/typing-animation";
-import { cn } from "@/lib/utils";
-import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
+
+
 const Hero = () => {
   return (
     <div>
-      <AnimatedGridPattern
-        numSquares={30}
-        maxOpacity={0.1}
-        duration={3}
-        // repeatDelay={0.5}
-        className={cn(
-          "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
-          "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12 w-[100%]"
-        )}
-      />
+     
       <div className=" container m-auto ">
         <div className=" flex justify-between items-center  h-screen">
           <div className=" w-[50%] mx-3 flex flex-col justify-start items-start  ">
